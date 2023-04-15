@@ -1,0 +1,109 @@
+@font-face {
+  font-family: beauttful-people;
+  src: url("fonts/BeautifulPeoplePersonalUse-dE0g.ttf") format("truetype");
+}
+@font-face {
+  font-family: quickkiss;
+  src: url("fonts/QuickKissPersonalUse-PxlZ.ttf") format("truetype");
+}
+body {
+  background-image: url("images/back.webp");
+  align-items: center;
+  font-family: beauttful-people;
+  text-align: center;
+}
+h1 {
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+.song {
+  /* font-family: quickkiss; */
+  height: 200px;
+  width: 75%;
+  position: relative;
+  left: 12.5%;
+  background-image: url("images/b1.webp");
+  /* background-repeat: repeat-y;
+  background-position: top 20% right 10%; */
+  border: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.song1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  background-repeat: repeat-y;
+  background-position: top 0% right 10%;
+}
+
+.song h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.song audio {
+  align-items: center;
+  padding-top: 20px;
+}
+
+.song2 {
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 75%;
+  background-position: top 46% right 10%;
+  background-repeat: repeat-y;
+}
+
+.song3 {
+  width: 75%;
+  background-position: top 92% right 10%;
+  background-repeat: repeat-y;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.song img {
+  height: 40px;
+  width: 40px;
+  opacity: 100%;
+}
+
+.song a {
+  display: inline-block;
+  text-decoration: none;
+  opacity: 50%;
+}
+
+.song a:hover {
+  opacity: 100%;
+}
+
+audio {
+  opacity: 40%;
+  border-radius: 10px;
+  color: aqua;
+}
+
+audio:hover {
+  opacity: 100%;
+}
+
+.container {
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
